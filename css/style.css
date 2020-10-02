@@ -126,9 +126,13 @@ span.navbar-toggler-icon {
     border-radius: 5px;
 }
 
+.about-heading {
+    margin-bottom: 35px;
+}
+
 /* Skills section */
 .skills-section,
-.contact-section {
+.getintouch-section {
     background-color: #fab1a0;
     color: #fff;
     padding-top: 100px;
@@ -222,7 +226,7 @@ span.navbar-toggler-icon {
     color: #444;
 }
 
-/* Contact section */
+/* Get in touch section */
 
 .contact-btn {
     color: #fff;
@@ -281,6 +285,7 @@ span.navbar-toggler-icon {
 
 .items-container {
     width: 100%;
+    padding-top: 20px;
 }
 
 .items {
@@ -289,11 +294,12 @@ span.navbar-toggler-icon {
 
 .items li {
     display: inline-block;
-    padding: 5px;
+    padding: 20px;
 }
 
 .items li img {
     width: 100%;
+    height: 100%;
 
     -webkit-transition: all .2s linear, 1s;
     -moz-transition: all .2s linear, 1s;
@@ -380,10 +386,53 @@ span.navbar-toggler-icon {
     transform: scale(1.05, 1.05);
 }
 
+/* Contact me section */
+
+.contacts-section {
+    background-color: #bdc3c7;
+    text-align: center;
+    padding: 75px 0 50px 0;
+}
+
+.contacts-section .contact-heading {
+    text-transform: uppercase;
+}
+
+.contacts-section .contact-info {
+    padding: 40px 0;
+    font-size: 20px;
+}
+
+.contacts-section .contact-info i {
+    padding-right: 5px;
+}
+
+.contacts-section .contact-info a {
+    color: #fff;
+}
+
+.contacts-section .contact-info a:hover {
+    color: #f56f51;
+}
+
+.contacts-section .contact-links {
+    font-size: 50px;
+}
+
+.contacts-section .contact-icon {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.contacts-section .contact-icon:hover {
+    color: #f56f51;
+}
+
 /* Copyright section */
 
 .copyright-section {
-    background-color: #bdc3c7;
+    background-color: #000;
+    color: #eee;
     padding: 30px 5px;
 }
 
