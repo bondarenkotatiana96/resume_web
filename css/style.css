@@ -266,7 +266,7 @@ span.navbar-toggler-icon {
     display: block;
 }
 
-.filter a:active {
+.filter a:visited {
     outline: none;
 }
     
