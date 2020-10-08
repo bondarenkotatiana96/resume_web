@@ -264,8 +264,12 @@ span.navbar-toggler-icon {
     border: 1px solid #bdc3c7;
     padding: 12px 18px;
     display: block;
+}
+
+.filter a:active {
     outline: none;
 }
+    
 
 .filter a:hover {
     text-decoration: none;
