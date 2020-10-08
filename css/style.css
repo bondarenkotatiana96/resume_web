@@ -466,7 +466,7 @@ span.navbar-toggler-icon {
 
 @media only screen and (hover:none) {
     .items .image-overlay {
-        opacity: 1;
+        opacity: .7;
     }
     
     .items .show-image-btn {
@@ -481,6 +481,11 @@ span.navbar-toggler-icon {
 }
 
  @media only screen and (max-width: 1200px) {
+
+    html,body{
+        overflow-x: hidden;
+    }
+
     .about-image {
         padding-top: 60px;
     }
@@ -492,7 +497,6 @@ span.navbar-toggler-icon {
  }
 
 @media only screen and (max-width: 900px) {
-
     .section {
         padding: 50px 0;
     }
@@ -516,10 +520,6 @@ span.navbar-toggler-icon {
         margin-bottom: 10px;
     }
 
-    .stats-section .container {
-        margin-left: 120px;
-    }
-
     .filter a {
         padding: 6px 9px;
     }
@@ -539,5 +539,14 @@ span.navbar-toggler-icon {
 }
 
 @media only screen and (max-width: 600px) {
+    .square-item {
+        height: 230px;
+    }
 
+    .square-inner-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
